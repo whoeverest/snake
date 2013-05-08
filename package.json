@@ -1,0 +1,21 @@
+{
+  "name": "Snake",
+  "version": "0.0.1",
+  "description": "Collaborative Snake",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whoeverest/snake.git"
+  },
+  "author": "Aleksandar Trpeski",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "dependencies":{
+      "socket.io":"0.9.14",
+      "express":"3.2.3"
+  }
+}
